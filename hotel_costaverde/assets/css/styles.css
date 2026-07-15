@@ -1,0 +1,67 @@
+:root {
+  --primary: #0f4c81;
+  --secondary: #1a6fb3;
+  --accent: #f4b942;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --light: #f8fafc;
+  --dark: #0f172a;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text);
+  background: var(--light);
+}
+
+.navbar-transparent {
+  background: rgba(15, 23, 42, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  color: white;
+}
+
+.hero-overlay {
+  background: linear-gradient(90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.2));
+}
+
+.section-title {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  transition: all 0.3s ease;
+}
+
+.admin-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+}
+
+.sidebar {
+  min-height: 100vh;
+  background: var(--dark);
+  color: white;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar .nav-link:hover {
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+.table-responsive {
+  border-radius: 12px;
+  overflow: hidden;
+}
