@@ -1,4 +1,4 @@
-# Hotel Costa Verde
+# Hotel Viva Jaco
 
 Sistema web inicial en PHP 8 con Oracle OCI8, Bootstrap 5 y arquitectura simple para sitio público y panel administrativo.
 
